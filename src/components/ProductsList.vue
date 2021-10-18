@@ -25,10 +25,6 @@
           ></v-text-field>
         </v-col>
         <v-col cols="2">
-          <v-icon @click="changeView('list')">mdi-format-list-bulleted</v-icon>
-          <v-icon @click="changeView('grid')">mdi-grid</v-icon>
-        </v-col>
-        <v-col cols="2">
           <!-- Add Product -->
           <upsert-product :form="form" title="Add Product" />
           <!-- End -->
